@@ -108,7 +108,7 @@ msgid "{0, plural, one {# content item imported} other {# content items imported
 msgstr "{0, plural, one {# innehållsobjekt importerat} other {# innehållsobjekt importerade}}"
 
 #. placeholder {0}: states.length
-#: packages/admin/src/components/calendar/CalendarMonth.tsx:332
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:455
 msgid "{0, plural, one {# entry} other {# entries}}"
 msgstr ""
 
@@ -171,11 +171,6 @@ msgstr "{0, plural, one {# meny importerad} other {# menyer importerade}}"
 msgid "{0, plural, one {# menu will be imported} other {# menus will be imported}}"
 msgstr "{0, plural, one {# meny kommer att importeras} other {# menyer kommer att importeras}}"
 
-#. placeholder {0}: counts.overdue
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:105
-msgid "{0, plural, one {# overdue} other {# overdue}}"
-msgstr ""
-
 #. placeholder {0}: capabilities.length
 #: packages/admin/src/components/CapabilityConsentDialog.tsx:226
 msgid "{0, plural, one {# permission requested} other {# permissions requested}}"
@@ -191,11 +186,6 @@ msgstr "{0, plural, one {# behörighet} other {# behörigheter}}"
 #: packages/admin/src/components/WordPressImport.tsx:2506
 msgid "{0, plural, one {# post} other {# posts}}"
 msgstr "{0, plural, one {# inlägg} other {# inlägg}}"
-
-#. placeholder {0}: counts.published
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:102
-msgid "{0, plural, one {# published} other {# published}}"
-msgstr ""
 
 #. placeholder {0}: loopRedirectIds.size
 #: packages/admin/src/components/Redirects.tsx:461
@@ -222,11 +212,6 @@ msgstr "{0, plural, one {# relation som innehållstypen ingår i} other {# relat
 msgid "{0, plural, one {# row} other {# rows}} × {1, plural, one {# column} other {# columns}} selected"
 msgstr "{0, plural, one {# rad} other {# rader}} × {1, plural, one {# kolumn} other {# kolumner}} markerade"
 
-#. placeholder {0}: counts.scheduled
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:103
-msgid "{0, plural, one {# scheduled} other {# scheduled}}"
-msgstr ""
-
 #. placeholder {0}: selected.size
 #: packages/admin/src/components/comments/CommentInbox.tsx:261
 msgid "{0, plural, one {# selected} other {# selected}}"
@@ -246,11 +231,6 @@ msgstr "{0, plural, one {# taxonomitilldelning} other {# taxonomitilldelningar}}
 #: packages/admin/src/components/WordPressImport.tsx:2259
 msgid "{0, plural, one {# taxonomy created} other {# taxonomies created}}"
 msgstr "{0, plural, one {# taxonomi skapad} other {# taxonomier skapade}}"
-
-#. placeholder {0}: counts.update
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:104
-msgid "{0, plural, one {# update scheduled} other {# updates scheduled}}"
-msgstr ""
 
 #. placeholder {0}: uploadQueue.failedCount
 #: packages/admin/src/components/MediaPickerModal.tsx:1614
@@ -474,16 +454,6 @@ msgstr "{0} har uppdaterats överallt där den visas."
 msgid "{0} updated to v{installedVersion}"
 msgstr "{0} uppdaterat till v{installedVersion}"
 
-#. placeholder {0}: group.label
-#: packages/admin/src/components/calendar/CalendarFilters.tsx:194
-msgid "{0}: {first}"
-msgstr ""
-
-#. placeholder {0}: group.label
-#: packages/admin/src/components/calendar/CalendarFilters.tsx:193
-msgid "{0}: {first} +{more}"
-msgstr ""
-
 #. placeholder {0}: draft.description.length
 #: packages/admin/src/components/SeoPanel.tsx:215
 msgid "{0}/160 characters"
@@ -537,7 +507,7 @@ msgstr "{count, plural, one {# objekt} other {# objekt}}"
 msgid "{current} of {total}"
 msgstr "{current} av {total}"
 
-#: packages/admin/src/components/calendar/CalendarMonth.tsx:338
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:468
 msgid "{dayLabel}, {entries}"
 msgstr ""
 
@@ -559,11 +529,11 @@ msgstr "{filesMissing, plural, one {# fil återstår att ladda upp. Välj samma 
 msgid "{filteredCount, plural, one {#{0} item} other {#{1} items}}"
 msgstr "{filteredCount, plural, one {#{0} objekt} other {#{1} objekt}}"
 
-#: packages/admin/src/components/calendar/CalendarMonth.tsx:272
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:387
 msgid "{hidden, plural, one {# more entry on {date}} other {# more entries on {date}}}"
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarMonth.tsx:279
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:394
 msgid "{hidden, plural, one {+# more} other {+# more}}"
 msgstr ""
 
@@ -598,7 +568,7 @@ msgstr "{label} flyttades till position {0}."
 msgid "{label} options"
 msgstr "Alternativ för {label}"
 
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:345
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:361
 msgid "{lateness} late"
 msgstr ""
 
@@ -761,15 +731,15 @@ msgstr "{selectedCount, plural, one {# vald} other {# valda}}"
 msgid "{selectedCount, plural, one {Move # item to trash? You can restore it later.} other {Move # items to trash? You can restore them later.}}"
 msgstr "{selectedCount, plural, one {Flytta # objekt till papperskorgen? Du kan återställa det senare.} other {Flytta # objekt till papperskorgen? Du kan återställa dem senare.}}"
 
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:88
+#: packages/admin/src/components/calendar/CalendarToolbar.tsx:53
 msgid "{siteZone} · Your time: {viewerZone}"
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:266
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:277
 msgid "{state} · {when}"
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:329
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:339
 msgid "{state}, {time}:"
 msgstr ""
 
@@ -777,15 +747,15 @@ msgstr ""
 msgid "{subLabel} ({label}, item {position})"
 msgstr "{subLabel} ({label}, objekt {position})"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:196
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:194
 msgid "{title} is a draft again."
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:182
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:180
 msgid "{title} is now live."
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:208
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:206
 msgid "{title} now goes live {when}."
 msgstr ""
 
@@ -1417,7 +1387,7 @@ msgstr "När du uttryckligen anropar det här tillägget kan det skicka markerat
 msgid "After you explicitly invoke this plugin, it can send selected unsaved editor content to: {0}"
 msgstr "När du uttryckligen anropar det här tillägget kan det skicka markerat osparat innehåll från redigeraren till: {0}"
 
-#: packages/admin/src/routes/calendar.tsx:310
+#: packages/admin/src/routes/calendar.tsx:307
 msgid "Agenda"
 msgstr ""
 
@@ -2249,7 +2219,7 @@ msgid "Byline updated"
 msgstr "Skribenten har uppdaterats"
 
 #: packages/admin/src/components/BylineFilter.tsx:145
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:354
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:339
 #: packages/admin/src/components/ContentSettingsPanel.tsx:1088
 #: packages/admin/src/components/ContentSettingsPanel.tsx:1092
 #: packages/admin/src/components/settings/transfer/labels.ts:19
@@ -2274,7 +2244,7 @@ msgstr "C++"
 #: packages/admin/src/components/AdminCommandPalette.tsx:142
 #: packages/admin/src/components/ContentTypeEditor.tsx:558
 #: packages/admin/src/components/Sidebar.tsx:588
-#: packages/admin/src/routes/calendar.tsx:279
+#: packages/admin/src/routes/calendar.tsx:276
 msgid "Calendar"
 msgstr "Kalender"
 
@@ -2525,7 +2495,7 @@ msgstr "Kontrollera webbplats"
 msgid "Check the server logs, then use the media usage recovery API for the failed work."
 msgstr "Kontrollera serverloggarna och använd sedan återställnings-API:t för medieanvändning för det som misslyckades."
 
-#: packages/admin/src/routes/calendar.tsx:271
+#: packages/admin/src/routes/calendar.tsx:268
 msgid "Check your connection and try again."
 msgstr ""
 
@@ -2684,8 +2654,8 @@ msgid "Clear completed"
 msgstr "Rensa slutförda"
 
 #: packages/admin/src/components/calendar/CalendarAgenda.tsx:79
-#: packages/admin/src/components/calendar/CalendarFilters.tsx:175
-#: packages/admin/src/components/calendar/CalendarFilters.tsx:222
+#: packages/admin/src/components/calendar/CalendarFilters.tsx:186
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:103
 #: packages/admin/src/components/ContentList.tsx:1030
 #: packages/admin/src/components/MediaLibrary.tsx:1084
 #: packages/admin/src/components/Sections.tsx:298
@@ -2846,8 +2816,7 @@ msgstr "Dölj detaljer"
 msgid "colleague@example.com"
 msgstr "kollega@example.com"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:331
-#: packages/admin/src/components/calendar/CalendarFilters.tsx:99
+#: packages/admin/src/components/calendar/CalendarFilters.tsx:70
 #: packages/admin/src/components/ContentPickerModal.tsx:261
 msgid "Collection"
 msgstr "Samling"
@@ -3268,11 +3237,11 @@ msgstr "Kunde inte läsa in bild från URL"
 msgid "Could not load media."
 msgstr "Kunde inte läsa in media."
 
-#: packages/admin/src/routes/calendar.tsx:344
+#: packages/admin/src/routes/calendar.tsx:340
 msgid "Could not load the calendar"
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:364
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:349
 msgid "Could not load this entry's details."
 msgstr ""
 
@@ -3280,11 +3249,11 @@ msgstr ""
 msgid "Could not load this folder."
 msgstr "Kunde inte läsa in mappen."
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:185
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:183
 msgid "Could not publish"
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:200
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:198
 msgid "Could not remove the schedule"
 msgstr ""
 
@@ -4402,7 +4371,7 @@ msgstr "Laddar ner"
 msgid "Downloading the package"
 msgstr "Laddar ner paketet"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:385
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:370
 #: packages/admin/src/components/ContentList.tsx:926
 #: packages/admin/src/components/ContentStatusBadge.tsx:61
 msgid "Draft"
@@ -4936,10 +4905,6 @@ msgstr "Poster"
 #: packages/admin/src/components/FieldEditor.tsx:990
 msgid "Entries that link to this one"
 msgstr "Poster som länkar till den här posten"
-
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:112
-msgid "Entries this month"
-msgstr ""
 
 #: packages/admin/src/components/FieldEditor.tsx:784
 #: packages/admin/src/components/FieldEditor.tsx:989
@@ -5939,8 +5904,7 @@ msgstr "Filnamnet kan inte ändras efter uppladdning"
 msgid "Files upload as soon as you add them."
 msgstr "Filerna laddas upp så fort du lägger till dem."
 
-#: packages/admin/src/components/calendar/CalendarFilters.tsx:155
-#: packages/admin/src/components/calendar/CalendarFilters.tsx:157
+#: packages/admin/src/components/calendar/CalendarFilters.tsx:131
 msgid "Filter"
 msgstr ""
 
@@ -5987,7 +5951,7 @@ msgstr "Filtrera efter typ"
 msgid "Filter byline type"
 msgstr "Filtrera skribenttyp"
 
-#: packages/admin/src/components/calendar/CalendarFilters.tsx:155
+#: packages/admin/src/components/calendar/CalendarFilters.tsx:129
 msgid "Filter: {activeCount} selected"
 msgstr ""
 
@@ -6174,8 +6138,8 @@ msgstr "Ge passkeyn ett namn så att du känner igen den senare."
 msgid "Go"
 msgstr "Go"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:410
-msgid "Go live {time}"
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:393
+msgid "Go live {countdown}"
 msgstr ""
 
 #: packages/admin/src/components/WordPressImport.tsx:2438
@@ -6183,8 +6147,12 @@ msgstr ""
 msgid "Go to Dashboard"
 msgstr "Gå till översikten"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:320
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:308
 msgid "Goes live"
+msgstr ""
+
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:375
+msgid "Goes live {countdown}"
 msgstr ""
 
 #: packages/admin/src/components/settings/SeoSettings.tsx:238
@@ -7093,12 +7061,8 @@ msgstr "Språk"
 msgid "Large section heading"
 msgstr "Stor sektionsrubrik"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:358
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:343
 msgid "Last edited"
-msgstr ""
-
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:386
-msgid "Last edited {edited}"
 msgstr ""
 
 #: packages/admin/src/components/PluginManager.tsx:664
@@ -7257,7 +7221,7 @@ msgstr "Länkar till {0}"
 msgid "List view"
 msgstr "Listvy"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:403
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:386
 #: packages/admin/src/components/ContentSettingsPanel.tsx:180
 #: packages/admin/src/components/ContentSettingsPanel.tsx:190
 #: packages/admin/src/components/ContentSettingsPanel.tsx:212
@@ -7296,7 +7260,7 @@ msgstr "Läs in mer"
 msgid "Load more folders"
 msgstr "Läs in fler mappar"
 
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:53
+#: packages/admin/src/components/calendar/CalendarToolbar.tsx:59
 #: packages/admin/src/router.tsx:3123
 msgid "Loading"
 msgstr "Läser in"
@@ -7470,8 +7434,8 @@ msgstr "Läser in …"
 msgid "Local time"
 msgstr "Lokal tid"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:335
-#: packages/admin/src/components/calendar/CalendarFilters.tsx:110
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:320
+#: packages/admin/src/components/calendar/CalendarFilters.tsx:80
 #: packages/admin/src/components/ContentList.tsx:685
 #: packages/admin/src/components/ContentList.tsx:828
 #: packages/admin/src/components/LocaleSwitcher.tsx:61
@@ -7910,7 +7874,7 @@ msgstr "Modereringssignaler"
 msgid "Modify collection schemas"
 msgstr "Ändra samlingsscheman"
 
-#: packages/admin/src/routes/calendar.tsx:296
+#: packages/admin/src/routes/calendar.tsx:293
 msgid "Month"
 msgstr ""
 
@@ -8282,7 +8246,7 @@ msgstr "Nyheter"
 msgid "Next"
 msgstr "Nästa"
 
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:73
+#: packages/admin/src/components/calendar/CalendarToolbar.tsx:77
 msgid "Next month"
 msgstr ""
 
@@ -8450,6 +8414,7 @@ msgid "No EmDash users found"
 msgstr "Inga EmDash-användare hittades"
 
 #: packages/admin/src/components/calendar/CalendarAgenda.tsx:66
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:100
 msgid "No entries match these filters"
 msgstr ""
 
@@ -8512,6 +8477,7 @@ msgid "No linked user"
 msgstr "Ingen länkad användare"
 
 #: packages/admin/src/components/calendar/CalendarAgenda.tsx:63
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:100
 msgid "No loaded entries match these filters"
 msgstr ""
 
@@ -8730,7 +8696,7 @@ msgstr "Ingen (toppnivå)"
 msgid "Not compatible with this environment"
 msgstr "Inte kompatibel med den här miljön"
 
-#: packages/admin/src/components/calendar/CalendarMonth.tsx:232
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:277
 msgid "Not loaded"
 msgstr ""
 
@@ -8747,7 +8713,7 @@ msgstr "Inte angivet"
 msgid "Nothing else is scheduled this month."
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarMonth.tsx:443
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:599
 msgid "Nothing on this day."
 msgstr ""
 
@@ -8764,7 +8730,7 @@ msgid "Nothing to preview yet."
 msgstr ""
 
 #: packages/admin/src/components/calendar/CalendarAgenda.tsx:104
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:401
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:414
 msgid "Now · {time}"
 msgstr ""
 
@@ -8863,8 +8829,7 @@ msgstr "Öppna mappen {0}"
 msgid "visualEditing.openInAdmin"
 msgstr "Öppna i administrationen"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:292
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:434
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:439
 msgid "Open in editor"
 msgstr ""
 
@@ -9002,11 +8967,11 @@ msgstr "Disposition"
 msgid "Output size"
 msgstr "Slutlig storlek"
 
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:44
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:46
 msgid "Overdue"
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:144
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:155
 msgid "Overdue · {lateness}"
 msgstr ""
 
@@ -9472,7 +9437,7 @@ msgstr ""
 msgid "Press Space to pick up an image. Use the Arrow keys to move it, then press Space to drop it."
 msgstr "Tryck på blanksteg för att plocka upp en bild. Flytta den med piltangenterna och tryck sedan på blanksteg för att släppa den."
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:453
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:448
 #: packages/admin/src/components/ContentSettingsPanel.tsx:389
 #: packages/admin/src/components/ContentTypeEditor.tsx:102
 #: packages/admin/src/components/editor/HtmlBlockNode.tsx:34
@@ -9481,7 +9446,7 @@ msgstr "Tryck på blanksteg för att plocka upp en bild. Flytta den med piltange
 msgid "Preview"
 msgstr "Förhandsgranskning"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:453
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:448
 msgid "Preview changes"
 msgstr ""
 
@@ -9506,7 +9471,7 @@ msgstr "Förhandsgranskning är inte tillgänglig för det här formatet"
 msgid "Previous"
 msgstr "Föregående"
 
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:60
+#: packages/admin/src/components/calendar/CalendarToolbar.tsx:64
 msgid "Previous month"
 msgstr ""
 
@@ -9601,7 +9566,7 @@ msgstr "Publicera ändringar?"
 msgid "visualEditing.publishFailed"
 msgstr "Publiceringen misslyckades. Kontrollera dina behörigheter och försök igen."
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:426
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:408
 #: packages/admin/src/components/ContentSettingsPanel.tsx:463
 msgid "Publish now"
 msgstr "Publicera nu"
@@ -9614,8 +9579,8 @@ msgstr "Publicera nu?"
 msgid "Publish, unpublish, schedule, and unschedule content"
 msgstr "Publicera, avpublicera, schemalägga och avboka schemaläggning av innehåll"
 
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:41
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:182
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:43
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:180
 #: packages/admin/src/components/ContentList.tsx:925
 #: packages/admin/src/components/ContentList.tsx:936
 #: packages/admin/src/components/ContentStatusBadge.tsx:59
@@ -9629,19 +9594,15 @@ msgstr "Publicerad"
 msgid "Published {0}"
 msgstr "Publicerad {0}"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:404
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:387
 msgid "Published {liveSince}"
-msgstr ""
-
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:371
-msgid "Published {time}."
 msgstr ""
 
 #: packages/admin/src/router.tsx:609
 msgid "Published {total} items"
 msgstr "Publicerade {total} objekt"
 
-#: packages/admin/src/routes/calendar.tsx:280
+#: packages/admin/src/routes/calendar.tsx:277
 msgid "Published and scheduled entries across collections, in the site's time zone."
 msgstr ""
 
@@ -9669,11 +9630,7 @@ msgstr "Det gick inte att verifiera utgivarens användarnamn"
 msgid "Publisher release policy"
 msgstr "Utgivarens versionspolicy"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:392
-msgid "Publishes {time}"
-msgstr ""
-
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:368
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:355
 msgid "Publishing"
 msgstr ""
 
@@ -10081,7 +10038,7 @@ msgstr "Ta bort passkey"
 msgid "Remove passkey?"
 msgstr "Ta bort passkey?"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:474
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:425
 #: packages/admin/src/components/ContentSettingsPanel.tsx:587
 msgid "Remove schedule"
 msgstr "Ta bort schemaläggning"
@@ -10262,11 +10219,11 @@ msgstr "Krävs för tillgänglighet. Beskriver bilden för skärmläsare."
 msgid "Requires EmDash {0}"
 msgstr "Kräver EmDash {0}"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:443
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:417
 msgid "Reschedule"
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:208
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:206
 msgid "Rescheduled"
 msgstr ""
 
@@ -10402,7 +10359,7 @@ msgstr "Utfasad"
 #: packages/admin/src/lib/content-editor-panels.tsx:201
 #: packages/admin/src/router.tsx:3151
 #: packages/admin/src/routes/byline-schema.tsx:280
-#: packages/admin/src/routes/calendar.tsx:348
+#: packages/admin/src/routes/calendar.tsx:344
 msgid "Retry"
 msgstr "Försök igen"
 
@@ -10770,19 +10727,19 @@ msgstr "Schemalagt datum"
 msgid "Schedule publication"
 msgstr "Schemalägg publicering"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:192
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:190
 msgid "Schedule removed"
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:42
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:391
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:44
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:374
 #: packages/admin/src/components/ContentList.tsx:927
 #: packages/admin/src/components/ContentStatusBadge.tsx:63
 #: packages/admin/src/router.tsx:1423
 msgid "Scheduled"
 msgstr "Schemalagd"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:409
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:392
 msgid "Scheduled changes"
 msgstr ""
 
@@ -11899,8 +11856,8 @@ msgstr "Startar"
 msgid "Starting…"
 msgstr "Startar …"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:306
-#: packages/admin/src/components/calendar/CalendarFilters.tsx:131
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:294
+#: packages/admin/src/components/calendar/CalendarFilters.tsx:100
 msgid "State"
 msgstr ""
 
@@ -12200,11 +12157,11 @@ msgstr "Webbläsaren visar oftast en QR-kod."
 msgid "The build provenance matches this release and its package."
 msgstr "Byggets ursprung stämmer med den här versionen och dess paket."
 
-#: packages/admin/src/routes/calendar.tsx:359
+#: packages/admin/src/routes/calendar.tsx:355
 msgid "The calendar shows the first {maxEntries}, which end on {cutOffDay}."
 msgstr ""
 
-#: packages/admin/src/routes/calendar.tsx:360
+#: packages/admin/src/routes/calendar.tsx:356
 msgid "The calendar shows the first {maxEntries}."
 msgstr ""
 
@@ -12493,7 +12450,7 @@ msgstr "Relationen avgör vilken samling som refereras och hur många poster fä
 msgid "The sample content added so far is kept. Continue to add the rest."
 msgstr "Exempelinnehållet som hittills lagts till behålls. Fortsätt för att lägga till resten."
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:195
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:193
 msgid "The scheduled changes to {title} stay as a draft."
 msgstr ""
 
@@ -12616,7 +12573,7 @@ msgstr "Innehållet kan inte redigeras säkert"
 msgid "This content will be visible on the site immediately."
 msgstr "Innehållet syns direkt på webbplatsen."
 
-#: packages/admin/src/components/calendar/CalendarMonth.tsx:442
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:598
 msgid "This day wasn't loaded. The range has more entries than the calendar can show."
 msgstr ""
 
@@ -12649,7 +12606,7 @@ msgstr "Posten är öppen någon annanstans"
 msgid "This entry is read-only because its schema uses field types this version of EmDash does not support."
 msgstr "Posten är skrivskyddad eftersom dess schema använder fälttyper som den här versionen av EmDash inte stöder."
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:376
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:363
 msgid "This entry was due {lateness} but hasn't published. Scheduled publishing may not be running."
 msgstr ""
 
@@ -12835,7 +12792,7 @@ msgstr "Utgivarens identitet går inte längre att slå upp."
 msgid "This publisher's handle does not resolve back to its identity. Installation is disabled until the publisher fixes their handle."
 msgstr "Utgivarens användarnamn pekar inte tillbaka till utgivarens identitet. Installation är avstängd tills utgivaren har rättat sitt användarnamn."
 
-#: packages/admin/src/routes/calendar.tsx:356
+#: packages/admin/src/routes/calendar.tsx:352
 msgid "This range has more than {maxEntries} entries"
 msgstr ""
 
@@ -12979,11 +12936,11 @@ msgstr "Tankar, guider och mer"
 msgid "Time"
 msgstr "Tid"
 
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:46
+#: packages/admin/src/components/calendar/CalendarToolbar.tsx:41
 msgid "Times are in {zoneName}."
 msgstr ""
 
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:45
+#: packages/admin/src/components/calendar/CalendarToolbar.tsx:40
 msgid "Times are in {zoneName}. Your browser uses {viewerZoneName}."
 msgstr ""
 
@@ -13021,8 +12978,8 @@ msgid "to select"
 msgstr "för att välja"
 
 #: packages/admin/src/components/calendar/CalendarAgenda.tsx:188
-#: packages/admin/src/components/calendar/CalendarMonth.tsx:420
-#: packages/admin/src/components/calendar/CalendarToolbar.tsx:67
+#: packages/admin/src/components/calendar/CalendarMonth.tsx:569
+#: packages/admin/src/components/calendar/CalendarToolbar.tsx:71
 msgid "Today"
 msgstr ""
 
@@ -13121,7 +13078,7 @@ msgstr "Översättning skapad"
 msgid "Translations"
 msgstr "Översättningar"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:342
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:327
 msgid "Translations:"
 msgstr ""
 
@@ -13408,7 +13365,7 @@ msgstr "Oanvända referenser utelämnades"
 msgid "Up to {MAX_SELECTED} bylines can be selected"
 msgstr "Du kan välja upp till {MAX_SELECTED} skribenter"
 
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:146
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:157
 #: packages/admin/src/components/TaxonomyManager.tsx:891
 msgid "Update"
 msgstr "Uppdatera"
@@ -13417,7 +13374,7 @@ msgstr "Uppdatera"
 msgid "Update Field"
 msgstr "Uppdatera fält"
 
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:43
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:45
 msgid "Update scheduled"
 msgstr ""
 
@@ -13837,7 +13794,7 @@ msgstr "Video"
 msgid "View email provider status and send test emails"
 msgstr "Visa status för e-postleverantör och skicka testmejl"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:463
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:458
 msgid "View live"
 msgstr ""
 
@@ -13909,7 +13866,7 @@ msgstr "Varning"
 msgid "Warnings"
 msgstr "Varningar"
 
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:319
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:307
 msgid "Was due"
 msgstr ""
 
@@ -14258,7 +14215,7 @@ msgstr "Du har inte behörighet att redigera den här mediefilen."
 msgid "You don’t have permission to move this file."
 msgstr "Du har inte behörighet att flytta den här filen."
 
-#: packages/admin/src/routes/calendar.tsx:269
+#: packages/admin/src/routes/calendar.tsx:266
 msgid "You don't have permission to view the calendar."
 msgstr ""
 
@@ -14415,8 +14372,8 @@ msgstr "Din roll tillåter ingen av de behörigheter som enheten begärde."
 msgid "Your site requires releases to be at least {0} old before they can be installed. This release will become installable later."
 msgstr "Din webbplats kräver att versioner är minst {0} gamla innan de kan installeras. Den här versionen kan installeras senare."
 
-#: packages/admin/src/components/calendar/CalendarEntry.tsx:268
-#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:327
+#: packages/admin/src/components/calendar/CalendarEntry.tsx:279
+#: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:315
 msgid "Your time: {viewerTime}"
 msgstr ""
 
