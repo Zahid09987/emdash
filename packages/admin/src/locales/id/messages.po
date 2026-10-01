@@ -4747,19 +4747,19 @@ msgstr "Sematkan {0}"
 
 #: packages/admin/src/components/PortableTextEditor.tsx:1916
 msgid "Embed a page from another site"
-msgstr ""
+msgstr "Sematkan halaman dari situs lain"
 
 #: packages/admin/src/components/editor/IframeBlockNode.tsx:247
 msgid "Embed code"
-msgstr ""
+msgstr "Kode sematan"
 
 #: packages/admin/src/components/editor/IframeBlockNode.tsx:100
 msgid "Embedded content"
-msgstr ""
+msgstr "Konten tersemat"
 
 #: packages/admin/src/components/PortableTextEditor.tsx:3264
 msgid "Embeds"
-msgstr "Semat"
+msgstr "Sematan"
 
 #. placeholder {0}: plan.origin.createdByEmDashVersion
 #: packages/admin/src/components/settings/transfer/ImportReview.tsx:269
@@ -6444,11 +6444,11 @@ msgstr "Jika Anda tidak meminta ini, Anda dapat mengabaikan surel ini dengan ama
 
 #: packages/admin/src/components/PortableTextEditor.tsx:1915
 msgid "Iframe"
-msgstr ""
+msgstr "Iframe"
 
 #: packages/admin/src/components/editor/IframeBlockNode.tsx:211
 msgid "Iframe block options"
-msgstr ""
+msgstr "Opsi blok iframe"
 
 #: packages/admin/src/components/FieldEditor.tsx:437
 #: packages/admin/src/components/FieldEditor.tsx:1240
@@ -7283,7 +7283,7 @@ msgstr "Muat lebih banyak map"
 
 #: packages/admin/src/components/editor/IframeBlockNode.tsx:230
 msgid "Load preview"
-msgstr ""
+msgstr "Muat pratinjau"
 
 #: packages/admin/src/components/calendar/CalendarToolbar.tsx:59
 #: packages/admin/src/router.tsx:3123
@@ -8477,7 +8477,7 @@ msgstr "Tidak ada judul di dokumen"
 
 #: packages/admin/src/components/editor/IframeBlockNode.tsx:45
 msgid "No iframe found in this code. For an embed that runs a script, use an HTML block."
-msgstr ""
+msgstr "Tidak ada iframe ditemukan dalam kode ini. Untuk sematan yang menjalankan skrip, gunakan blok HTML."
 
 #: packages/admin/src/components/editor/GalleryDetailPanel.tsx:271
 msgid "No images in this gallery yet."
@@ -8819,7 +8819,7 @@ msgstr "Hanya alamat surel dari domain yang diizinkan yang dapat mendaftar."
 
 #: packages/admin/src/components/editor/IframeBlockNode.tsx:46
 msgid "Only https links can be embedded."
-msgstr ""
+msgstr "Hanya tautan https yang dapat disematkan."
 
 #: packages/admin/src/components/MediaUsedIn.tsx:216
 msgid "Only image and file fields, images in rich text, and site settings are tracked. Custom rich text blocks and template code aren’t checked."
@@ -8828,7 +8828,7 @@ msgstr "Hanya kolom gambar dan berkas, gambar dalam teks kaya, dan pengaturan si
 #: packages/admin/src/components/editor/ImageUploadExtension.ts:212
 #: packages/admin/src/components/media/ImageDropTarget.tsx:53
 msgid "Only image files can be uploaded here."
-msgstr ">>>>>>> upstream/main"
+msgstr "Hanya berkas gambar yang dapat diunggah di sini."
 
 #: packages/admin/src/components/MenuList.tsx:168
 msgid "Only lowercase letters, numbers, and hyphens"
@@ -9139,7 +9139,7 @@ msgstr "Kunci sandi memerlukan HTTPS atau http://localhost (dengan port Anda); n
 
 #: packages/admin/src/components/editor/IframeBlockNode.tsx:248
 msgid "Paste an embed code or an https link…"
-msgstr ""
+msgstr "Tempel kode tersemat atau tautan https…"
 
 #: packages/admin/src/components/WordPressImport.tsx:1059
 msgid "Paste your migration key"
@@ -12578,12 +12578,7 @@ msgstr "Ini juga menghapus:"
 msgid "This block cannot be edited because its stored definition is unavailable."
 msgstr "Blok ini tidak dapat disunting karena definisi tersimpannya tidak tersedia."
 
-#. placeholder {0}: url.host
-#: packages/admin/src/components/editor/IframeBlockNode.tsx:220
-msgid "This block embeds a page from {0}."
-msgstr ""
-
-#: packages/admin/src/components/editor/HtmlBlockPreview.tsx:113
+#: packages/admin/src/components/editor/HtmlBlockPreview.tsx:112
 msgid "This block runs JavaScript."
 msgstr "Blok ini menjalankan JavaScript."
 
