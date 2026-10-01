@@ -6140,7 +6140,7 @@ msgstr "Pergi"
 
 #: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:393
 msgid "Go live {countdown}"
-msgstr ""
+msgstr "Tayangkan {countdown}"
 
 #: packages/admin/src/components/WordPressImport.tsx:2438
 #: packages/admin/src/router.tsx:3168
@@ -6153,7 +6153,7 @@ msgstr "Sudah tayang"
 
 #: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:375
 msgid "Goes live {countdown}"
-msgstr ""
+msgstr "Sudah tayang {countdown}"
 
 #: packages/admin/src/components/settings/SeoSettings.tsx:238
 #: packages/admin/src/components/settings/SeoSettings.tsx:244
