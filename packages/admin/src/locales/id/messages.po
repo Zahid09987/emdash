@@ -1566,7 +1566,7 @@ msgstr "Juga diminta, tetapi tidak tersedia untuk peran Anda:"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:65
 msgid "visualEditing.altText"
-msgstr "visualEditing.altText"
+msgstr "Teks alternatif"
 
 #: packages/admin/src/components/editor/GalleryDetailPanel.tsx:485
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:514
@@ -1990,7 +1990,7 @@ msgstr "Avatar"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:74
 msgid "visualEditing.back"
-msgstr "visualEditing.back"
+msgstr "Kembali"
 
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:628
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:665
@@ -4112,7 +4112,7 @@ msgstr "Tolak"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:66
 msgid "visualEditing.altTextPlaceholder"
-msgstr "visualEditing.altTextPlaceholder"
+msgstr "Deskripsikan gambar"
 
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:521
 #: packages/admin/src/components/PortableTextEditor.tsx:4774
@@ -4448,7 +4448,7 @@ msgstr "Mengunduh paket"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:53
 msgid "visualEditing.draft"
-msgstr "visualEditing.draft"
+msgstr "Draf"
 
 #: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:370
 #: packages/admin/src/components/ContentList.tsx:1021
@@ -4706,7 +4706,7 @@ msgstr "Sunting item menu"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:50
 msgid "visualEditing.editMode"
-msgstr "visualEditing.editMode"
+msgstr "Mode sunting"
 
 #: packages/admin/src/components/BylineCreditsEditor.tsx:881
 #: packages/admin/src/components/BylineCreditsEditor.tsx:975
@@ -4750,7 +4750,7 @@ msgstr "Menyunting di situs ini dijeda hingga impor selesai."
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:41
 msgid "visualEditing.sessionExpired"
-msgstr "visualEditing.sessionExpired"
+msgstr "Sesi penyuntingan kedaluwarsa. Muat ulang halaman untuk melanjutkan."
 
 #: packages/admin/src/components/users/roleDefinitions.ts:36
 #: packages/admin/src/components/WelcomeModal.tsx:26
@@ -5655,7 +5655,7 @@ msgstr "Gagal memuat impor"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:77
 msgid "visualEditing.mediaLoadFailed"
-msgstr "visualEditing.mediaLoadFailed"
+msgstr "Gagal memuat media"
 
 #: packages/admin/src/components/settings/SecuritySettings.tsx:128
 msgid "Failed to load passkeys"
@@ -6435,7 +6435,7 @@ msgstr "Sembunyikan token"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:52
 msgid "visualEditing.hideToolbar"
-msgstr "visualEditing.hideToolbar"
+msgstr "Sembunyikan toolbar"
 
 #: packages/admin/src/components/Shell.tsx:86
 msgid "Hide toolbar"
@@ -6566,7 +6566,7 @@ msgstr "Jika ada akun untuk <0>{email}</0>, kami telah mengirimkan tautan masuk.
 
 #: packages/admin/src/components/settings/ChangeDomainDialog.tsx:123
 msgid "If the site can't be reached from the internet yet, for example on localhost or behind a login, you can use the address without the check."
-msgstr "Jika situs belum dapat dicapai dari internet, contohnya di localhost atau di belakang masuk, Anda dapat menggunakan alamat tanpa pemeriksaan."
+msgstr "Jika situs belum dapat dicapai dari internet, contohnya di localhost atau di balik halaman masuk, Anda dapat menggunakan alamat tanpa pemeriksaan."
 
 #: packages/admin/src/locales/emails.ts:67
 msgid "If you didn't request this, you can safely ignore this email."
@@ -6583,7 +6583,7 @@ msgstr "Opsi blok iframe"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:63
 msgid "visualEditing.image"
-msgstr "visualEditing.image"
+msgstr "Gambar"
 
 #: packages/admin/src/components/FieldEditor.tsx:437
 #: packages/admin/src/components/FieldEditor.tsx:1240
@@ -7366,7 +7366,7 @@ msgstr "Ditautkan dari"
 #. placeholder {0}: siteDomain.configuredUrl
 #: packages/admin/src/components/settings/GeneralSettings.tsx:359
 msgid "Links in emails and plugins use {0}, set by the deployment configuration."
-msgstr "Tautan di surel dan pengaya menggunakan {0}, diatur oleh konfigurasi pengerahan."
+msgstr "Tautan di surel dan pengaya menggunakan {0}, diatur oleh konfigurasi penggelaran."
 
 #: packages/admin/src/components/settings/ChangeDomainDialog.tsx:84
 msgid "Links in emails and plugins, sitemaps, and absolute URLs in search and social metadata will use the new domain."
@@ -7597,7 +7597,7 @@ msgstr "Memuat..."
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:75
 msgid "visualEditing.loading"
-msgstr "visualEditing.loading"
+msgstr "Memuat…"
 
 #: packages/admin/src/components/BylineFilter.tsx:147
 #: packages/admin/src/components/settings/transfer/ApprovalsSection.tsx:134
@@ -7860,7 +7860,7 @@ msgstr "Media di map ini akan kembali ke Pustaka Utama. Tidak ada berkas yang ak
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:73
 msgid "visualEditing.mediaLibrary"
-msgstr "visualEditing.mediaLibrary"
+msgstr "Pustaka Media"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:166
 #: packages/admin/src/components/MediaLibrary.tsx:755
@@ -8640,12 +8640,12 @@ msgstr "Tidak ada iframe ditemukan dalam kode ini. Untuk sematan yang menjalanka
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:64
 msgid "visualEditing.noImageSelected"
-msgstr "visualEditing.noImageSelected"
+msgstr "Tidak ada gambar dipilih"
 
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:76
 msgid "visualEditing.noImagesFound"
-msgstr "visualEditing.noImagesFound"
+msgstr "Tidak ada gambar ditemukan"
 
 #: packages/admin/src/components/editor/GalleryDetailPanel.tsx:271
 msgid "No images in this gallery yet."
@@ -9030,7 +9030,7 @@ msgstr "Buka map {0}"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:51
 msgid "visualEditing.openInAdmin"
-msgstr "visualEditing.openInAdmin"
+msgstr "Buka di admin"
 
 #: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:439
 msgid "Open in editor"
@@ -9781,7 +9781,7 @@ msgstr "Kebijakan publikasi memblokir konten terjadwal"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:39
 msgid "visualEditing.publish"
-msgstr "visualEditing.publish"
+msgstr "Publikasikan"
 
 #: packages/admin/src/components/ContentList.tsx:583
 #: packages/admin/src/components/ContentSettingsPanel.tsx:900
@@ -9800,7 +9800,7 @@ msgstr "Publikasikan perubahan?"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:46
 msgid "visualEditing.publishFailed"
-msgstr "visualEditing.publishFailed"
+msgstr "Publikasi gagal. Periksa izin Anda dan coba lagi."
 
 #: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:408
 #: packages/admin/src/components/ContentSettingsPanel.tsx:463
@@ -9828,7 +9828,7 @@ msgstr "Dipublikasikan"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:54
 msgid "visualEditing.published"
-msgstr "visualEditing.published"
+msgstr "Dipublikasikan"
 
 #. placeholder {0}: new Date(latest.publishedAt).toLocaleDateString()
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:347
@@ -9882,7 +9882,7 @@ msgstr "Ringkasan publikasi"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:40
 msgid "visualEditing.publishing"
-msgstr "visualEditing.publishing"
+msgstr "Memublikasikan…"
 
 #: packages/admin/src/components/editor/codeBlockLanguages.ts:48
 msgid "Python"
@@ -9902,7 +9902,7 @@ msgstr "Buat cepat relasi"
 
 #: packages/admin/src/components/FieldEditor.tsx:1028
 msgid "Quick create names the relationship after this field and this collection, takes how many entries it holds from the switch above, and puts no limit on how many entries link back the other way. <0>Create the relationship yourself</0> to set its slug, the name each side goes by, and both limits, then pick it above."
-msgstr "Buat cepat menamai relasi setelah kolom dan koleksi ini, mengambil berapa banyak entri yang dipegangnya dari sakelar di atas, dan tidak membatasi berapa banyak entri yang ditautkan kembali ke arah lain. <0>Buat relasi sendiri</0> untuk mengatur slug, nama yang digunakan kedua sisi, dan kedua batas, lalu pilih di atas.<<<<<<< HEAD"
+msgstr "Buat cepat menamai relasi setelah kolom dan koleksi ini, mengambil berapa banyak entri yang dipegangnya dari sakelar di atas, dan tidak membatasi berapa banyak entri yang ditautkan kembali ke arah lain. <0>Buat relasi sendiri</0> untuk mengatur slug, nama yang digunakan kedua sisi, dan kedua batas, lalu pilih di atas."
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:111
 #: packages/admin/src/components/PortableTextEditor.tsx:1887
@@ -10107,7 +10107,7 @@ msgstr "Favicon yang dirujuk tidak tersedia."
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:45
 msgid "visualEditing.refreshPage"
-msgstr "visualEditing.refreshPage"
+msgstr "Muat ulang halaman"
 
 #: packages/admin/src/components/settings/MediaUsageSettings.tsx:337
 msgid "Refresh status"
@@ -10189,7 +10189,7 @@ msgstr "Memuat ulang rencana…"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:72
 msgid "visualEditing.removeImage"
-msgstr "visualEditing.removeImage"
+msgstr "Hapus"
 
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:84
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:115
@@ -10358,7 +10358,7 @@ msgstr "Grup kolom berulang"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:70
 msgid "visualEditing.replaceImage"
-msgstr "visualEditing.replaceImage"
+msgstr "Ganti"
 
 #: packages/admin/src/components/ContentEditor.tsx:3172
 #: packages/admin/src/components/ContentEditor.tsx:3209
@@ -10897,7 +10897,7 @@ msgstr "Simpan tanggal"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:62
 msgid "visualEditing.saveFailed"
-msgstr "visualEditing.saveFailed"
+msgstr "Gagal menyimpan"
 
 #: packages/admin/src/components/settings/PasskeyItem.tsx:112
 msgid "Save name"
@@ -10923,7 +10923,7 @@ msgstr "Simpan Pengaturan"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:61
 msgid "visualEditing.saved"
-msgstr "visualEditing.saved"
+msgstr "Disimpan"
 
 #: packages/admin/src/components/SaveButton.tsx:34
 msgid "Saved"
@@ -10961,7 +10961,7 @@ msgstr "Menyimpan..."
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:60
 msgid "visualEditing.saving"
-msgstr "visualEditing.saving"
+msgstr "Menyimpan…"
 
 #: packages/admin/src/components/BylineFieldEditor.tsx:318
 msgid "Saving…"
@@ -11914,7 +11914,7 @@ msgstr "URL situs diatur ke {url}"
 
 #: packages/admin/src/components/settings/ChangeDomainDialog.tsx:83
 msgid "Sitemaps and absolute URLs in search and social metadata will use the new domain. Links in emails and plugins keep using {configuredUrl}, set by the deployment configuration."
-msgstr "Peta situs dan URL absolut di metadata pencarian dan sosial akan menggunakan domain baru. Tautan di surel dan pengaya tetap menggunakan {configuredUrl}, diatur oleh konfigurasi pengerahan."
+msgstr "Peta situs dan URL absolut di metadata pencarian dan sosial akan menggunakan domain baru. Tautan di surel dan pengaya tetap menggunakan {configuredUrl}, diatur oleh konfigurasi penggelaran."
 
 #: packages/admin/src/components/settings/BackupSettings.tsx:345
 msgid "Sites on Cloudflare D1 can additionally restore the database to any minute within the last 30 days using D1 Time Travel — always on, no setup required."
@@ -13620,7 +13620,7 @@ msgstr "Tidak diterbitkan"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:55
 msgid "visualEditing.unpublishedChanges"
-msgstr "visualEditing.unpublishedChanges"
+msgstr "Perubahan belum dipublikasikan"
 
 #: packages/admin/src/components/ContentTypeList.tsx:153
 msgid "Unregistered Content Tables Found"
@@ -13633,7 +13633,7 @@ msgstr "Penetapan belum terselesaikan"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:59
 msgid "visualEditing.unsaved"
-msgstr "visualEditing.unsaved"
+msgstr "Belum disimpan"
 
 #: packages/admin/src/components/CapabilityConsentDialog.tsx:131
 msgid "Unsaved content may leave your site"
@@ -13755,7 +13755,7 @@ msgstr "Memperbarui..."
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:71
 msgid "visualEditing.uploadImage"
-msgstr "visualEditing.uploadImage"
+msgstr "Unggah"
 
 #: packages/admin/src/components/MediaLibrary.tsx:804
 msgid "Upload"
@@ -13852,7 +13852,7 @@ msgstr "Mengunggah"
 #. js-lingui-explicit-id
 #: packages/admin/src/locales/server.ts:78
 msgid "visualEditing.uploadingFile"
-msgstr "visualEditing.uploadingFile"
+msgstr "Mengunggah {filename}…"
 
 #: packages/admin/src/components/editor/ImageUploadExtension.ts:114
 #: packages/admin/src/components/media/ImageDropTarget.tsx:134
