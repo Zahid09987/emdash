@@ -13892,7 +13892,7 @@ msgstr "Slug URL"
 
 #: packages/admin/src/components/Widgets.tsx:132
 msgid "URL template (e.g. /blog/:slug)"
-msgstr ""
+msgstr "Templat URL (cth. /blog/:slug)"
 
 #: packages/admin/src/components/ContentTypeEditor.tsx:134
 #: packages/admin/src/components/FieldEditor.tsx:462
