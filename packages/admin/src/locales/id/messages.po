@@ -1011,7 +1011,7 @@ msgstr "Map media dengan nama ini sudah ada"
 
 #: packages/admin/src/components/TaxonomyManager.tsx:962
 msgid "A name cannot be generated from this label. Type one manually using lowercase letters, numbers, and underscores."
-msgstr ""
+msgstr "Nama tidak dapat dihasilkan dari label ini. Ketik secara manual menggunakan huruf kecil, angka, dan garis bawah."
 
 #: packages/admin/src/components/settings/transfer/labels.ts:137
 msgid "A number is too large for this site’s database"
@@ -1057,17 +1057,17 @@ msgstr "Deskripsi singkat dari situs Anda"
 
 #: packages/admin/src/components/RelationForm.tsx:249
 msgid "A slug cannot be generated from these role names. Type one manually using lowercase letters, numbers, and underscores."
-msgstr ""
+msgstr "Slug tidak dapat dihasilkan dari nama peran ini. Ketik secara manual menggunakan huruf kecil, angka, dan garis bawah."
 
 #: packages/admin/src/components/BylineFieldEditor.tsx:195
 #: packages/admin/src/components/ContentTypeEditor.tsx:235
 #: packages/admin/src/components/FieldEditor.tsx:657
 msgid "A slug cannot be generated from this label. Type one manually using lowercase letters, numbers, and underscores."
-msgstr ""
+msgstr "Slug tidak dapat dihasilkan dari label ini. Ketik secara manual menggunakan huruf kecil, angka, dan garis bawah."
 
 #: packages/admin/src/components/FieldEditor.tsx:1242
 msgid "A slug cannot be generated from this label. Type one manually."
-msgstr ""
+msgstr "Slug tidak dapat dihasilkan dari label ini. Ketik secara manual menggunakan huruf kecil, angka, dan garis bawah."
 
 #: packages/admin/src/components/TaxonomySidebar.tsx:762
 msgid "A source and target locale are required"
@@ -6089,7 +6089,7 @@ msgstr "Kolom diperbarui"
 
 #: packages/admin/src/components/FieldEditor.tsx:1277
 msgid "field_slug"
-msgstr ""
+msgstr "field_slug"
 
 #: packages/admin/src/components/ContentTypeEditor.tsx:752
 #: packages/admin/src/components/RelationList.tsx:96
@@ -12344,11 +12344,11 @@ msgstr "Terstruktur"
 
 #: packages/admin/src/components/FieldEditor.tsx:1303
 msgid "Sub-field slugs cannot be changed after creation."
-msgstr ""
+msgstr "Slug sub-kolom tidak dapat diubah setelah pembuatan."
 
 #: packages/admin/src/components/FieldEditor.tsx:1240
 msgid "Sub-field slugs must be unique."
-msgstr ""
+msgstr "Slug sub-kolom harus unik."
 
 #: packages/admin/src/components/FieldEditor.tsx:1206
 msgid "Sub-Fields"
