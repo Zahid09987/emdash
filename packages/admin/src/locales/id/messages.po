@@ -1295,7 +1295,7 @@ msgstr "Tambahkan byline"
 #: packages/admin/src/components/editor/VideoNode.tsx:389
 #: packages/admin/src/components/PortableTextEditor.tsx:5845
 msgid "Add caption"
-msgstr ""
+msgstr "Tambahkan takarir"
 
 #: packages/admin/src/components/editor/TableControls.tsx:26
 #: packages/admin/src/components/PortableTextEditor.tsx:5411
@@ -3471,7 +3471,7 @@ msgstr "Lanjutkan impor"
 #. placeholder {0}: activeProviderEntry.label
 #: packages/admin/src/components/LoginPage.tsx:225
 msgid "Continue with {0}."
-msgstr ""
+msgstr "Lanjutkan dengan {0}."
 
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:673
 msgid "Continue with another device"
@@ -4965,7 +4965,7 @@ msgstr "Sunting kolom byline"
 #: packages/admin/src/components/editor/VideoNode.tsx:389
 #: packages/admin/src/components/PortableTextEditor.tsx:5845
 msgid "Edit caption"
-msgstr ""
+msgstr "Sunting takarir"
 
 #: packages/admin/src/components/ImageFieldRenderer.tsx:440
 msgid "Edit dark mode asset"
@@ -8030,7 +8030,7 @@ msgstr "Pelajari lebih lanjut"
 #: packages/admin/src/components/UnsavedChangesGuard.tsx:27
 #: packages/admin/src/components/UnsavedChangesGuard.tsx:29
 msgid "Leave"
-msgstr ""
+msgstr "Tinggalkan"
 
 #: packages/admin/src/components/WordPressImport.tsx:2556
 msgid "Leave unassigned"
@@ -8038,7 +8038,7 @@ msgstr "Biarkan tidak ditetapkan"
 
 #: packages/admin/src/components/UnsavedChangesGuard.tsx:25
 msgid "Leave without saving?"
-msgstr ""
+msgstr "Tinggalkan tanpa menyimpan?"
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:53
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:276
@@ -12055,7 +12055,6 @@ msgstr "SCSS"
 
 #: packages/admin/src/components/ContentTypeEditor.tsx:106
 #: packages/admin/src/components/Settings.tsx:165
-#: packages/admin/src/components/Settings.tsx:165
 #: packages/admin/src/components/Widgets.tsx:152
 msgid "Search"
 msgstr "Cari"
@@ -13166,7 +13165,7 @@ msgstr "Status: {status}"
 
 #: packages/admin/src/components/UnsavedChangesGuard.tsx:28
 msgid "Stay"
-msgstr ""
+msgstr "Tetap"
 
 #: packages/admin/src/components/settings/transfer/ExportDownload.tsx:115
 #: packages/admin/src/components/settings/transfer/ImportSection.tsx:419
@@ -15862,11 +15861,11 @@ msgstr "Peran Anda"
 
 #: packages/admin/src/router.tsx:2018
 msgid "Your role can edit your own entries only while they are drafts."
-msgstr ""
+msgstr "Peran Anda hanya dapat menyunting entri Anda sendiri selama masih dalam draf."
 
 #: packages/admin/src/router.tsx:2019
 msgid "Your role can't edit this entry."
-msgstr ""
+msgstr "Peran Anda tidak dapat menyunting entri ini."
 
 #: packages/admin/src/components/DeviceAuthorizePage.tsx:376
 msgid "Your role does not permit any of the permissions this device requested."
