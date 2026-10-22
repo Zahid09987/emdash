@@ -2887,7 +2887,7 @@ msgstr "Pilih pengelola kredensial pada perangkat ini, perangkat lain, atau kunc
 
 #: packages/admin/src/components/PublishingDateTimeEditor.tsx:36
 msgid "Choose a date"
-msgstr ""
+msgstr "Pilih tanggal"
 
 #: packages/admin/src/components/ContentList.tsx:1210
 #: packages/admin/src/components/ContentList.tsx:1216
@@ -2913,11 +2913,11 @@ msgstr "Pilih istilah dan masukkan antara 1 dan 50 postingan."
 
 #: packages/admin/src/components/PublishingDateTimeEditor.tsx:40
 msgid "Choose a time in the future"
-msgstr ""
+msgstr "Pilih waktu di masa mendatang"
 
 #: packages/admin/src/components/PublishingDateTimeEditor.tsx:37
 msgid "Choose a valid date"
-msgstr ""
+msgstr "Pilih tanggal yang valid"
 
 #: packages/admin/src/components/MediaPickerModal.tsx:236
 msgid "Choose a video from the library or upload a new one."
@@ -5332,7 +5332,7 @@ msgstr "Masukkan slug."
 
 #: packages/admin/src/components/PublishingDateTimeEditor.tsx:38
 msgid "Enter a time"
-msgstr ""
+msgstr "Masukkan waktu"
 
 #: packages/admin/src/components/MenuEditor.tsx:527
 #: packages/admin/src/components/MenuEditor.tsx:725
@@ -5341,7 +5341,7 @@ msgstr "Masukkan URL (https://…) atau jalur relatif (/…)"
 
 #: packages/admin/src/components/PublishingDateTimeEditor.tsx:39
 msgid "Enter a valid time"
-msgstr ""
+msgstr "Masukkan waktu yang valid"
 
 #: packages/admin/src/components/ContentEditor.tsx:3278
 msgid "Enter a valid URL (e.g. https://example.com)"
@@ -11871,7 +11871,7 @@ msgstr "Gagal menyimpan"
 
 #: packages/admin/src/components/SeoImageField.tsx:241
 msgid "Save image URL"
-msgstr ""
+msgstr "Simpan URL gambar"
 
 #: packages/admin/src/components/settings/PasskeyItem.tsx:112
 msgid "Save name"
@@ -12066,7 +12066,6 @@ msgid "SCSS"
 msgstr "SCSS"
 
 #: packages/admin/src/components/ContentTypeEditor.tsx:106
-#: packages/admin/src/components/Settings.tsx:165
 #: packages/admin/src/components/Settings.tsx:165
 #: packages/admin/src/components/Widgets.tsx:160
 msgid "Search"
@@ -12704,7 +12703,7 @@ msgstr "Dibagikan di semua terjemahan untuk byline yang sama."
 
 #: packages/admin/src/components/SeoImageField.tsx:226
 msgid "Sharing image needs a URL"
-msgstr ""
+msgstr "Membagikan gambar memerlukan URL"
 
 #: packages/admin/src/components/BylineFieldEditor.tsx:47
 msgid "Short text"
@@ -13443,7 +13442,7 @@ msgstr "Pemformatan teks"
 
 #: packages/admin/src/components/PublishingDateTimeEditor.tsx:41
 msgid "That time does not exist in your time zone"
-msgstr ""
+msgstr "Waktu itu tidak ada dalam zona waktu Anda"
 
 #: packages/admin/src/components/revisions/useRevisionView.ts:546
 msgid "That version is no longer available. Back to editing."
@@ -13789,7 +13788,7 @@ msgstr "Konten sampel yang ditambahkan sejauh ini disimpan. Lanjutkan untuk mena
 
 #: packages/admin/src/components/SeoImageField.tsx:229
 msgid "The saved media ID may not work in shared links. Save the image URL to use this file for sharing."
-msgstr ""
+msgstr "ID media yang disimpan mungkin tidak bekerja dalam tautan bersama. Simpan URL gambar untuk menggunakan berkas ini untuk berbagi."
 
 #: packages/admin/src/components/calendar/CalendarEntryPanel.tsx:193
 msgid "The scheduled changes to {title} stay as a draft."
