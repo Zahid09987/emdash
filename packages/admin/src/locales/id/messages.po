@@ -12703,7 +12703,7 @@ msgstr "Dibagikan di semua terjemahan untuk byline yang sama."
 
 #: packages/admin/src/components/SeoImageField.tsx:226
 msgid "Sharing image needs a URL"
-msgstr "Membagikan gambar memerlukan URL"
+msgstr "Gambar berbagi memerlukan URL"
 
 #: packages/admin/src/components/BylineFieldEditor.tsx:47
 msgid "Short text"
